@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
-</head>
-<body>
-    <h1>Formulário de Cadastro</h1>
-    <hr/>
-    <form>
-        <label for ="name">Nome: </label>
-        <input type="text" id="name" placeholder="Ex: João, Maria..."/>
-        <br/>
-        <label for="email">E-mail: </label>
-        <input type="email" id="email" placeholder="ex:gmail, yahoo, outlook..."/>
-        <br/>
-        <label for="senha">Senha: </label>
-        <input type="password" id="senha" placeholder="Insira Senha"/>
-        <br/>
-        <button type="submit">Cadastrar</button>
-    </form>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contador</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <section>
+            <form class="container">
+                <h1>Contador EBAC</h1>
+                <h3>Digite os números para comparação</h3> 
+                <div>
+                    <input id="numa" type="number" required placeholder="Número A">
+                    <input id="numb" type="number" required placeholder="Número B">
+                    <button id="bt" type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
+        <script src="./main.js"></script>
+    </body>
 </html>
