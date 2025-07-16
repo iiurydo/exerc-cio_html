@@ -1,0 +1,14 @@
+@use 'reset';
+@use 'header/header.scss';
+@use 'section/section.scss';
+@use 'viewport.scss';
+
+body {
+    background-color: #f5f6fa;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
