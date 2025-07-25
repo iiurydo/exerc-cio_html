@@ -1,4 +1,5 @@
-@media screen and (max-width: 1023px) {
+
+@media screen and (min-width:641px) and (max-width: 1023px) {
     .container {
         max-width: 80%;
     }
@@ -6,12 +7,14 @@
     .products {
         grid-template-columns: repeat(2, 48.5%);
         column-gap: 3%;
+        background-color: aquamarine;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 640px) {
     .products {
         display: block;
+        background-color: aqua;
     }
 
     .product-item  {
