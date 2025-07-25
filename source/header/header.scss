@@ -1,5 +1,7 @@
+@use '../variaveis/variavel.scss';
+
 header {
-    background-color: #182C61;
+    background-color: variavel.$corPrimaria;
     position: sticky;
     top: 0;
     left: 0;
@@ -13,7 +15,7 @@ header {
     }
 
     .menu li a {
-        color: #fff;
+        color:variavel.$corSecundaria;
         text-decoration: none;
     }
     .container {
