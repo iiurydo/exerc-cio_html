@@ -2,23 +2,35 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário</title>
+    <title>Meu Github</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h1>Formulário de Cadastro</h1>
-    <hr/>
-    <form>
-        <label for ="name">Nome: </label>
-        <input type="text" id="name" placeholder="Ex: João, Maria..."/>
-        <br/>
-        <label for="email">E-mail: </label>
-        <input type="email" id="email" placeholder="ex:gmail, yahoo, outlook..."/>
-        <br/>
-        <label for="senha">Senha: </label>
-        <input type="password" id="senha" placeholder="Insira Senha"/>
-        <br/>
-        <button type="submit">Cadastrar</button>
-    </form>
+    <header>
+        <div class="container">
+            <img id="avatar_image" class="profile-avatar" src="https://via.placeholder.com/180x180" alt=".">
+            <h1 id="profile_name" class="profile-name"></h1>
+            <h2 id="profile_username" class="profile-username">@<span></span></h2>
+            <ul class="numbers">
+                <li class="numbers-item">
+                    <h4>Repositórios</h4>
+                    <span id="repositorio"></span>
+                </li>
+                <li class="numbers-item">
+                    <h4>Seguidores</h4>
+                    <span id="seguidores"></span>
+                </li>
+                <li class="numbers-item">
+                    <h4>Seguindo</h4>
+                    <span id="seguindo"></span>
+                </li>
+            </ul>
+            <a href="#" id="link" class="profile-link">Ver no Github</a>
+        </div>
+    </header>
+    <script src="jquery-3.7.1.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
