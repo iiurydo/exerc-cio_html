@@ -10,12 +10,12 @@ console.log(multiplica(5,2));
 
 //Função de saudação
 
-function cumprimenta (){
-    const nome: string = 'Tony Soprano';
+function cumprimenta (nome: string){
     return `Olá, ${nome}`
 }
 
-console.log(cumprimenta());
+console.log(cumprimenta("Tony Soprano"));
+console.log(cumprimenta("Paulie"));
 
 
 
